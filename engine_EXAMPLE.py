@@ -1,0 +1,9 @@
+BLOG_URL = "https://wordpresssiteurl.com"  # Wordpress site URL
+CATEGORY_ID = 1234  # category id on wordpress blog to fect posts
+FETCH_POST_COUNT = 100  # number of posts to fetch - max 100
+STATE_FILE = "recent_posts.txt"  # name of recent posts text file
+MAX_HISTORY = 60  # number of posted posts to keep on record
+BSKY_HANDLE = "username"   # Your Bluesky username
+BSKY_APP_PASSWORD = "1234-abcd-5678-efgh"  # Your Bluesky app password
+EXCERPT_LENGTH = 180  # excerpt lenght for 1st X characters of a post
+MAX_DELAY_SECONDS = 4 * 60 * 60  # delay for program run to post - eg 4 hours
