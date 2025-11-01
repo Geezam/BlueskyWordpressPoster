@@ -28,7 +28,7 @@ def get_featured_posts(count):
         return []
 
     formatted_posts = []
-
+    print(len(posts))
     for post in posts:
 
         post_title = html.unescape(post['title']['rendered'])

@@ -11,7 +11,7 @@ random_delay = random.randint(0, MAX_DELAY_SECONDS)
 print(f"--- Bot started. Sleeping for {random_delay // 60} minutes"
       f"and {random_delay % 60} seconds. ---")
 
-time.sleep(random_delay)
+#time.sleep(random_delay)
 
 recent_links = get_recently_posted_links()
 
@@ -29,6 +29,6 @@ print("Picked: " + post['title'])
 client = Client()
 client.login(BSKY_HANDLE, BSKY_APP_PASSWORD)
 
-post_to_bluesky(post_to_share, client)
+#post_to_bluesky(post_to_share, client)
 
 update_recently_posted_links(recent_links, post_to_share['link'])
